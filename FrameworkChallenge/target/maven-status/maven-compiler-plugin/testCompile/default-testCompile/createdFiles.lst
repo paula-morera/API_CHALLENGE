@@ -1,0 +1,5 @@
+DesignPattern\User.class
+Cases\TestCases.class
+Data\ProvideData.class
+DesignPattern\Builder.class
+DesignPattern\UserBuilder.class

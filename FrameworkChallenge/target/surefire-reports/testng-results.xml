@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="18" passed="17" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-27T23:31:20 COT" name="Cases.TestCases" finished-at="2022-02-27T23:31:29 COT" duration-ms="8771">
+    <groups>
+    </groups>
+    <test started-at="2022-02-27T23:31:20 COT" name="Command line test" finished-at="2022-02-27T23:31:29 COT" duration-ms="8771">
+      <class name="Cases.TestCases">
+        <test-method is-config="true" signature="ReadJson()[pri:0, instance:Cases.TestCases@5cdd8682]" started-at="2022-02-27T23:31:19 COT" name="ReadJson" finished-at="2022-02-27T23:31:20 COT" duration-ms="931" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReadJson -->
+        <test-method signature="TokenAndSession()[pri:1, instance:Cases.TestCases@5cdd8682]" started-at="2022-02-27T23:31:20 COT" name="TokenAndSession" finished-at="2022-02-27T23:31:23 COT" duration-ms="3615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TokenAndSession -->
+        <test-method signature="CreateList(java.lang.String,java.lang.String)[pri:2, instance:Cases.TestCases@5cdd8682]" started-at="2022-02-27T23:31:23 COT" name="CreateList" data-provider="ListNames" finished-at="2022-02-27T23:31:24 COT" depends-on-methods="Cases.TestCases.TokenAndSession" duration-ms="647" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Crime]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[This is the description for a comedy realted items]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateList -->
+        <test-method signature="CreateList(java.lang.String,java.lang.String)[pri:2, instance:Cases.TestCases@5cdd8682]" started-at="2022-02-27T23:31:24 COT" name="CreateList" data-provider="ListNames" finished-at="2022-02-27T23:31:24 COT" depends-on-methods="Cases.TestCases.TokenAndSession" duration-ms="264" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Thriller]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[This is the description for a terror realted items]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateList -->
+        <test-method signature="CreateList(java.lang.String,java.lang.String)[pri:2, instance:Cases.TestCases@5cdd8682]" started-at="2022-02-27T23:31:24 COT" name="CreateList" data-provider="ListNames" finished-at="2022-02-27T23:31:25 COT" depends-on-methods="Cases.TestCases.TokenAndSession" duration-ms="346" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Adventure]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[This is the description for a action realted items]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateList -->
+        <test-method signature="AddMovieToList(int,int)[pri:3, instance:Cases.TestCases@5cdd8682]" started-at="2022-02-27T23:31:25 COT" name="AddMovieToList" data-provider="Movies" finished-at="2022-02-27T23:31:25 COT" depends-on-methods="Cases.TestCases.TokenAndSession" duration-ms="203" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8193360]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[512195]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddMovieToList -->
+        <test-method signature="AddMovieToList(int,int)[pri:3, instance:Cases.TestCases@5cdd8682]" started-at="2022-02-27T23:31:25 COT" name="AddMovieToList" data-provider="Movies" finished-at="2022-02-27T23:31:25 COT" depends-on-methods="Cases.TestCases.TokenAndSession" duration-ms="279" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8193360]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[335787]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddMovieToList -->
+        <test-method signature="AddMovieToList(int,int)[pri:3, instance:Cases.TestCases@5cdd8682]" started-at="2022-02-27T23:31:25 COT" name="AddMovieToList" data-provider="Movies" finished-at="2022-02-27T23:31:25 COT" depends-on-methods="Cases.TestCases.TokenAndSession" duration-ms="221" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8193360]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[138843]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddMovieToList -->
+        <test-method signature="AddMovieToList(int,int)[pri:3, instance:Cases.TestCases@5cdd8682]" started-at="2022-02-27T23:31:25 COT" name="AddMovieToList" data-provider="Movies" finished-at="2022-02-27T23:31:26 COT" depends-on-methods="Cases.TestCases.TokenAndSession" duration-ms="379" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8193358]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[259693]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddMovieToList -->
+        <test-method signature="AddMovieToList(int,int)[pri:3, instance:Cases.TestCases@5cdd8682]" started-at="2022-02-27T23:31:26 COT" name="AddMovieToList" data-provider="Movies" finished-at="2022-02-27T23:31:26 COT" depends-on-methods="Cases.TestCases.TokenAndSession" duration-ms="184" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8193358]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[615904]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddMovieToList -->
+        <test-method signature="AddMovieToList(int,int)[pri:3, instance:Cases.TestCases@5cdd8682]" started-at="2022-02-27T23:31:26 COT" name="AddMovieToList" data-provider="Movies" finished-at="2022-02-27T23:31:26 COT" depends-on-methods="Cases.TestCases.TokenAndSession" duration-ms="185" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8193358]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[425909]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddMovieToList -->
+        <test-method signature="AddMovieToList(int,int)[pri:3, instance:Cases.TestCases@5cdd8682]" started-at="2022-02-27T23:31:26 COT" name="AddMovieToList" data-provider="Movies" finished-at="2022-02-27T23:31:26 COT" depends-on-methods="Cases.TestCases.TokenAndSession" duration-ms="305" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8193361]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[860623]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddMovieToList -->
+        <test-method signature="AddMovieToList(int,int)[pri:3, instance:Cases.TestCases@5cdd8682]" started-at="2022-02-27T23:31:26 COT" name="AddMovieToList" data-provider="Movies" finished-at="2022-02-27T23:31:27 COT" depends-on-methods="Cases.TestCases.TokenAndSession" duration-ms="413" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8193361]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[423108]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddMovieToList -->
+        <test-method signature="AddMovieToList(int,int)[pri:3, instance:Cases.TestCases@5cdd8682]" started-at="2022-02-27T23:31:27 COT" name="AddMovieToList" data-provider="Movies" finished-at="2022-02-27T23:31:27 COT" depends-on-methods="Cases.TestCases.TokenAndSession" duration-ms="216" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8193361]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[482321]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddMovieToList -->
+        <test-method signature="ClearList(int)[pri:4, instance:Cases.TestCases@5cdd8682]" started-at="2022-02-27T23:31:27 COT" name="ClearList" data-provider="ListToClear" finished-at="2022-02-27T23:31:27 COT" depends-on-methods="Cases.TestCases.TokenAndSession" duration-ms="284" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8193354]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClearList -->
+        <test-method signature="DeleteList(int)[pri:5, instance:Cases.TestCases@5cdd8682]" started-at="2022-02-27T23:31:27 COT" name="DeleteList" data-provider="ListToDelete" finished-at="2022-02-27T23:31:28 COT" depends-on-methods="Cases.TestCases.TokenAndSession" duration-ms="251" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8193355]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <201> but was <500>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <201> but was <500>.
+
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:105)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:499)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:684)
+at jdk.internal.reflect.GeneratedMethodAccessor134.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:127)
+at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
+at jdk.internal.reflect.GeneratedMethodAccessor133.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
+at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
+at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
+at Cases.TestCases.DeleteList(TestCases.java:126)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:110)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteList -->
+        <test-method signature="SearchBy(java.lang.String)[pri:6, instance:Cases.TestCases@5cdd8682]" started-at="2022-02-27T23:31:28 COT" name="SearchBy" data-provider="Query" finished-at="2022-02-27T23:31:28 COT" depends-on-methods="Cases.TestCases.TokenAndSession" duration-ms="191" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[marvel]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchBy -->
+        <test-method signature="SearchBy(java.lang.String)[pri:6, instance:Cases.TestCases@5cdd8682]" started-at="2022-02-27T23:31:28 COT" name="SearchBy" data-provider="Query" finished-at="2022-02-27T23:31:28 COT" depends-on-methods="Cases.TestCases.TokenAndSession" duration-ms="384" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[disney]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchBy -->
+        <test-method signature="SearchBy(java.lang.String)[pri:6, instance:Cases.TestCases@5cdd8682]" started-at="2022-02-27T23:31:28 COT" name="SearchBy" data-provider="Query" finished-at="2022-02-27T23:31:29 COT" depends-on-methods="Cases.TestCases.TokenAndSession" duration-ms="346" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[space]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchBy -->
+      </class> <!-- Cases.TestCases -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Cases.TestCases -->
+</testng-results>

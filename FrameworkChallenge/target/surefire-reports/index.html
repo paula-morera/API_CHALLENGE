@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Cases_TestCases" class="navigator-link">
+              <span class="suite-name border-failed">Cases.TestCases</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Cases_TestCases" class="navigator-link ">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Cases_TestCases" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Cases_TestCases" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Cases_TestCases" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Cases_TestCases" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Cases_TestCases" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Cases_TestCases" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">18 methods, 1 failed,   17 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Cases_TestCases" class="hide-methods failed suite-Cases_TestCases"> (hide)</a> <!-- hide-methods failed suite-Cases_TestCases -->
+                      <a href="#" panel-name="suite-Cases_TestCases" class="show-methods failed suite-Cases_TestCases"> (show)</a> <!-- show-methods failed suite-Cases_TestCases -->
+                    </span>
+                    <div class="method-list-content failed suite-Cases_TestCases">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cases_TestCases" title="Cases.TestCases" class="method navigator-link" hash-for-method="DeleteList(8193355)">DeleteList(8193355)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Cases_TestCases -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Cases_TestCases" class="hide-methods passed suite-Cases_TestCases"> (hide)</a> <!-- hide-methods passed suite-Cases_TestCases -->
+                      <a href="#" panel-name="suite-Cases_TestCases" class="show-methods passed suite-Cases_TestCases"> (show)</a> <!-- show-methods passed suite-Cases_TestCases -->
+                    </span>
+                    <div class="method-list-content passed suite-Cases_TestCases">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cases_TestCases" title="Cases.TestCases" class="method navigator-link" hash-for-method="AddMovieToList(8193361, 482321)">AddMovieToList(8193361, 482321)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cases_TestCases" title="Cases.TestCases" class="method navigator-link" hash-for-method="AddMovieToList(8193358, 615904)">AddMovieToList(8193358, 615904)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cases_TestCases" title="Cases.TestCases" class="method navigator-link" hash-for-method="AddMovieToList(8193361, 423108)">AddMovieToList(8193361, 423108)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cases_TestCases" title="Cases.TestCases" class="method navigator-link" hash-for-method="AddMovieToList(8193358, 259693)">AddMovieToList(8193358, 259693)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cases_TestCases" title="Cases.TestCases" class="method navigator-link" hash-for-method="AddMovieToList(8193360, 512195)">AddMovieToList(8193360, 512195)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cases_TestCases" title="Cases.TestCases" class="method navigator-link" hash-for-method="AddMovieToList(8193361, 860623)">AddMovieToList(8193361, 860623)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cases_TestCases" title="Cases.TestCases" class="method navigator-link" hash-for-method="AddMovieToList(8193360, 138843)">AddMovieToList(8193360, 138843)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cases_TestCases" title="Cases.TestCases" class="method navigator-link" hash-for-method="AddMovieToList(8193360, 335787)">AddMovieToList(8193360, 335787)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cases_TestCases" title="Cases.TestCases" class="method navigator-link" hash-for-method="AddMovieToList(8193358, 425909)">AddMovieToList(8193358, 425909)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cases_TestCases" title="Cases.TestCases" class="method navigator-link" hash-for-method="ClearList(8193354)">ClearList(8193354)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cases_TestCases" title="Cases.TestCases" class="method navigator-link" hash-for-method="CreateList(Thriller, This is the description for a terror realted items)">CreateList(Thriller, This is the description for a terror realted items)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cases_TestCases" title="Cases.TestCases" class="method navigator-link" hash-for-method="CreateList(Adventure, This is the description for a action realted items)">CreateList(Adventure, This is the description for a action realted items)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cases_TestCases" title="Cases.TestCases" class="method navigator-link" hash-for-method="CreateList(Crime, This is the description for a comedy realted items)">CreateList(Crime, This is the description for a comedy realted items)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cases_TestCases" title="Cases.TestCases" class="method navigator-link" hash-for-method="SearchBy(marvel)">SearchBy(marvel)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cases_TestCases" title="Cases.TestCases" class="method navigator-link" hash-for-method="SearchBy(space)">SearchBy(space)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cases_TestCases" title="Cases.TestCases" class="method navigator-link" hash-for-method="SearchBy(disney)">SearchBy(disney)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cases_TestCases" title="Cases.TestCases" class="method navigator-link" hash-for-method="TokenAndSession">TokenAndSession</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Cases_TestCases -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Cases_TestCases" class="panel Cases_TestCases">
+          <div class="suite-Cases_TestCases-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Cases.TestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="DeleteList(8193355)">
+                  </a> <!-- DeleteList(8193355) -->
+                  <span class="method-name">DeleteList</span>
+                  <span class="parameters">(8193355)</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;500&gt;.
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:105)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:499)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:684)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:127)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
+	at Cases.TestCases.DeleteList(TestCases.java:126)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 49 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Cases_TestCases-class-failed -->
+          <div class="suite-Cases_TestCases-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Cases.TestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddMovieToList(8193361, 482321)">
+                  </a> <!-- AddMovieToList(8193361, 482321) -->
+                  <span class="method-name">AddMovieToList</span>
+                  <span class="parameters">(8193361, 482321)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddMovieToList(8193358, 615904)">
+                  </a> <!-- AddMovieToList(8193358, 615904) -->
+                  <span class="method-name">AddMovieToList</span>
+                  <span class="parameters">(8193358, 615904)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddMovieToList(8193361, 423108)">
+                  </a> <!-- AddMovieToList(8193361, 423108) -->
+                  <span class="method-name">AddMovieToList</span>
+                  <span class="parameters">(8193361, 423108)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddMovieToList(8193358, 259693)">
+                  </a> <!-- AddMovieToList(8193358, 259693) -->
+                  <span class="method-name">AddMovieToList</span>
+                  <span class="parameters">(8193358, 259693)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddMovieToList(8193360, 512195)">
+                  </a> <!-- AddMovieToList(8193360, 512195) -->
+                  <span class="method-name">AddMovieToList</span>
+                  <span class="parameters">(8193360, 512195)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddMovieToList(8193361, 860623)">
+                  </a> <!-- AddMovieToList(8193361, 860623) -->
+                  <span class="method-name">AddMovieToList</span>
+                  <span class="parameters">(8193361, 860623)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddMovieToList(8193360, 138843)">
+                  </a> <!-- AddMovieToList(8193360, 138843) -->
+                  <span class="method-name">AddMovieToList</span>
+                  <span class="parameters">(8193360, 138843)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddMovieToList(8193360, 335787)">
+                  </a> <!-- AddMovieToList(8193360, 335787) -->
+                  <span class="method-name">AddMovieToList</span>
+                  <span class="parameters">(8193360, 335787)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddMovieToList(8193358, 425909)">
+                  </a> <!-- AddMovieToList(8193358, 425909) -->
+                  <span class="method-name">AddMovieToList</span>
+                  <span class="parameters">(8193358, 425909)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClearList(8193354)">
+                  </a> <!-- ClearList(8193354) -->
+                  <span class="method-name">ClearList</span>
+                  <span class="parameters">(8193354)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CreateList(Thriller, This is the description for a terror realted items)">
+                  </a> <!-- CreateList(Thriller, This is the description for a terror realted items) -->
+                  <span class="method-name">CreateList</span>
+                  <span class="parameters">(Thriller, This is the description for a terror realted items)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CreateList(Adventure, This is the description for a action realted items)">
+                  </a> <!-- CreateList(Adventure, This is the description for a action realted items) -->
+                  <span class="method-name">CreateList</span>
+                  <span class="parameters">(Adventure, This is the description for a action realted items)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CreateList(Crime, This is the description for a comedy realted items)">
+                  </a> <!-- CreateList(Crime, This is the description for a comedy realted items) -->
+                  <span class="method-name">CreateList</span>
+                  <span class="parameters">(Crime, This is the description for a comedy realted items)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearchBy(marvel)">
+                  </a> <!-- SearchBy(marvel) -->
+                  <span class="method-name">SearchBy</span>
+                  <span class="parameters">(marvel)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearchBy(space)">
+                  </a> <!-- SearchBy(space) -->
+                  <span class="method-name">SearchBy</span>
+                  <span class="parameters">(space)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearchBy(disney)">
+                  </a> <!-- SearchBy(disney) -->
+                  <span class="method-name">SearchBy</span>
+                  <span class="parameters">(disney)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TokenAndSession">
+                  </a> <!-- TokenAndSession -->
+                  <span class="method-name">TokenAndSession</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Cases_TestCases-class-passed -->
+        </div> <!-- panel Cases_TestCases -->
+        <div panel-name="test-xml-Cases_TestCases" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Cases.TestCases&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Command line test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Cases.TestCases&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Command line test --&gt;
+&lt;/suite&gt; &lt;!-- Cases.TestCases --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Cases_TestCases" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Cases.TestCases</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Command line test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Cases_TestCases" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Cases.TestCases</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Cases_TestCases" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Cases.TestCases</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Cases_TestCases');
+function tableData_Cases_TestCases() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(18);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TokenAndSession')
+data.setCell(0, 2, 'Cases.TestCases')
+data.setCell(0, 3, 3615);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'CreateList')
+data.setCell(1, 2, 'Cases.TestCases')
+data.setCell(1, 3, 647);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'AddMovieToList')
+data.setCell(2, 2, 'Cases.TestCases')
+data.setCell(2, 3, 413);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'SearchBy')
+data.setCell(3, 2, 'Cases.TestCases')
+data.setCell(3, 3, 384);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'AddMovieToList')
+data.setCell(4, 2, 'Cases.TestCases')
+data.setCell(4, 3, 379);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'CreateList')
+data.setCell(5, 2, 'Cases.TestCases')
+data.setCell(5, 3, 346);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'SearchBy')
+data.setCell(6, 2, 'Cases.TestCases')
+data.setCell(6, 3, 346);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'AddMovieToList')
+data.setCell(7, 2, 'Cases.TestCases')
+data.setCell(7, 3, 305);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'ClearList')
+data.setCell(8, 2, 'Cases.TestCases')
+data.setCell(8, 3, 284);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'AddMovieToList')
+data.setCell(9, 2, 'Cases.TestCases')
+data.setCell(9, 3, 279);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'CreateList')
+data.setCell(10, 2, 'Cases.TestCases')
+data.setCell(10, 3, 264);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'DeleteList')
+data.setCell(11, 2, 'Cases.TestCases')
+data.setCell(11, 3, 251);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'AddMovieToList')
+data.setCell(12, 2, 'Cases.TestCases')
+data.setCell(12, 3, 221);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'AddMovieToList')
+data.setCell(13, 2, 'Cases.TestCases')
+data.setCell(13, 3, 216);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'AddMovieToList')
+data.setCell(14, 2, 'Cases.TestCases')
+data.setCell(14, 3, 203);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'SearchBy')
+data.setCell(15, 2, 'Cases.TestCases')
+data.setCell(15, 3, 191);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'AddMovieToList')
+data.setCell(16, 2, 'Cases.TestCases')
+data.setCell(16, 3, 185);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'AddMovieToList')
+data.setCell(17, 2, 'Cases.TestCases')
+data.setCell(17, 3, 184);
+window.suiteTableData['Cases_TestCases']= { tableData: data, tableDiv: 'times-div-Cases_TestCases'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 8 seconds</span>
+              <div id="times-div-Cases_TestCases">
+              </div> <!-- times-div-Cases_TestCases -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Cases_TestCases" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Cases.TestCases</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Cases_TestCases" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Cases_TestCases" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Cases.TestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">ReadJson</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">TokenAndSession</span>
+                <span class="method-start">968 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CreateList(Crime, This is the description for a comedy realted items)</span>
+                <span class="method-start">4594 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CreateList(Thriller, This is the description for a terror realted items)</span>
+                <span class="method-start">5241 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CreateList(Adventure, This is the description for a action realted items)</span>
+                <span class="method-start">5505 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">AddMovieToList(8193360, 512195)</span>
+                <span class="method-start">5851 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">AddMovieToList(8193360, 335787)</span>
+                <span class="method-start">6054 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">AddMovieToList(8193360, 138843)</span>
+                <span class="method-start">6333 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">AddMovieToList(8193358, 259693)</span>
+                <span class="method-start">6555 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">AddMovieToList(8193358, 615904)</span>
+                <span class="method-start">6934 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">AddMovieToList(8193358, 425909)</span>
+                <span class="method-start">7118 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">AddMovieToList(8193361, 860623)</span>
+                <span class="method-start">7304 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">AddMovieToList(8193361, 423108)</span>
+                <span class="method-start">7609 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">AddMovieToList(8193361, 482321)</span>
+                <span class="method-start">8022 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ClearList(8193354)</span>
+                <span class="method-start">8240 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">DeleteList(8193355)</span>
+                <span class="method-start">8525 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SearchBy(marvel)</span>
+                <span class="method-start">8779 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SearchBy(disney)</span>
+                <span class="method-start">8970 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SearchBy(space)</span>
+                <span class="method-start">9355 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
